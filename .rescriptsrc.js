@@ -16,7 +16,10 @@ module.exports = [
       stylesDir: path.join(__dirname, './src/styles'),
       varFile: path.join(__dirname, './src/styles/variables.less'),
       mainLessFile: path.join(__dirname, './src/styles/index.less'),
-      themeVariables: ['@primary-color', '@secondry-color', '@text-color-secondary', '@text-color'],
+      themeVariables: [
+       '@body-background', '@border-radius-base',
+       '@primary-color', '@secondry-color', '@text-color-secondary', '@text-color'
+      ],
       indexFileName: 'index.html',
       generateOnce: false
     }

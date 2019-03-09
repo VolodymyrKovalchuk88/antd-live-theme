@@ -34,6 +34,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     let initialValue = {
+      '@body-background': 'black', // the idea is to add black theme to our project
+      '@border-radius-base': '0px', // there is a request to have theme of a "flat" type
       '@primary-color': '#1987a7',
       '@secondary-color': '#0000ff',
       '@text-color': '#000000',
